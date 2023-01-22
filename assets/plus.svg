@@ -2,3 +2,47 @@
 <path d="M3.125 10H16.875" stroke="#8B5CF6" stroke-width="1.88" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M10 3.125V16.875" stroke="#8B5CF6" stroke-width="1.88" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
+/* Plus */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 11.11%;
+right: 79.63%;
+top: 30.77%;
+bottom: 30.77%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.56%;
+right: 81.08%;
+top: 50%;
+bottom: 50%;
+
+/* tailwind/violet/500 */
+border: 1.88px solid #8B5CF6;
+
+
+/* Vector */
+
+position: absolute;
+left: 15.74%;
+right: 84.26%;
+top: 36.78%;
+bottom: 36.78%;
+
+/* tailwind/violet/500 */
+border: 1.88px solid #8B5CF6;
