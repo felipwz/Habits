@@ -26,6 +26,7 @@ header{
     width: 100%;
 }
 
+
 button {
     padding: 16px 24px;
     border-radius: 10px;
@@ -43,6 +44,12 @@ button {
 
 }
 
+button:hover{
+    color: #a283eadb;
+    border: 1px solid #672cf2;
+    
+}
+
 form {
     display: flex;
     padding: 182px 48px 48px;
@@ -58,7 +65,7 @@ form {
 }
 
 .habit {
-
+    
     width: 64px;
     height: 64px;
 
@@ -118,4 +125,6 @@ input:checked {
     button div{
         display: none;
     }
+
+
 }
