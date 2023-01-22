@@ -6,35 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <title>Habits</title>
 </head>
 
 <body>
     <header>
-        <img src="assets/logo.svg" alt="Logo marca do aplicativo Habits">
-        <button>
+        <img src="assets/logo.svg" alt="Logo marca do aplicativo Habits" data-aos="fade-right"       data-aos-duration="3000"
+            data-aos-delay="300">
+
+        <button data-aos="fade-left" data-aos-duration="3000" data-aos-delay="300">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3.125 10H16.875" stroke="#8B5CF6" stroke-width="1.88" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M10 3.125V16.875" stroke="#8B5CF6" stroke-width="1.88" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+                <path d="M3.125 10H16.875" stroke="#8B5CF6" stroke-width="1.88" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M10 3.125V16.875" stroke="#8B5CF6" stroke-width="1.88" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
             <div>Registrar o meu dia</div>
         </button>
     </header>
 
     <form>
-        <div class="habits">
-          <div class="habit" data-name="training">🏋️‍♀️</div>
-          <div class="habit" data-name="water">💧</div>
-          <div class="habit" data-name="read">📖</div>
-          <div class="habit" data-name="study">📚</div>
-          <div class="habit" data-name="food">🍎</div>
+        <div class="habits" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="300">
+            <div class="habit" data-name="training">🏋️</div>
+            <div class="habit" data-name="water">💧</div>
+            <div class="habit" data-name="read">📖</div>
+            <div class="habit" data-name="study">📚</div>
+            <div class="habit" data-name="food">🍎</div>
         </div>
-      
-        <div class="days"></div>
-      </form>
 
-      <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+        <div class="days" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="300"></div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+
+
+    <script>AOS.init(); </script>
 
     <script src="script.js"></script>
 
